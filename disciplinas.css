@@ -1,0 +1,120 @@
+body{
+    background-color: #f8ebc1
+}
+a{
+    border: solid;
+    border-radius:5px;
+    padding: 3px;
+    background-color: aliceblue;
+    text-decoration:none;
+    
+    
+}
+
+h1{
+    text-align: center;
+    font-size: 32px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: solid;
+    border-radius: 5px;
+    background-color: #0a7c95;
+    
+    
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    background-color:#f8b5bb;
+    height: 70vh;
+    align-items: center; 
+    justify-content: space-evenly;
+}
+
+section{
+    background-image:url(deportes3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+       
+}
+    
+table{
+    border-style: solid;
+    border-color: cadetblue;
+    height: 60vh;
+    
+}
+th{
+    color: white;
+    font-weight: bold;
+}
+td{
+    border-style:groove;
+    justify-content: center;
+    text-align: center;
+    color:white
+    
+}
+aside{
+    justify-items: center;
+    background-color:#9da5e9 ;
+    text-align: center;
+}
+
+.search-form{
+    background-color: brown;
+    border-style:solid;
+    width: 25vw;
+    height: 10vh;
+
+}
+.weather-card{
+    font-size: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+
+footer{
+    height: 8vh;
+    text-align: center;
+    margin: 20px auto; 
+       
+}
+.asd{
+    display: none;
+}
+
+@media screen and (max-width: 1024px) {
+    
+}
+@media screen and (max-width: 768px) {
+    header{
+        display: flex;
+        flex-direction: column;
+        height: max-content;
+        align-items: center;}
+    main{
+        display: flex;
+        flex-direction: column;
+        height: max-content;
+        align-items: center;}
+   
+    }
+
+    
+    input{
+    height: 25px;
+    background-color: aquamarine;
+    width: 80%;
+        }
+    
+
+    
+
+
+@media screen and (max-width: 480px) {
+    
+   
+
+  
+    }
